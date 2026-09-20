@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Bouldeson</title>
+<meta name="description" content="Contacter l'atelier Bouldeson à Bayonne : renseignements, commande, demande sur mesure.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Nunito+Sans:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="index.html"><span class="logo-mark" aria-hidden="true"></span><span data-cfg="marque">Bouldeson</span></a>
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="boutique.html">Les modèles</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="wrap section">
+    <div class="section-head">
+      <p class="eyebrow">Contact</p>
+      <h2>Écrivez à l'atelier.</h2>
+      <p class="lede">Tout passe par email : renseignements, prix, finitions, délais et modalités de livraison. Si un modèle vous intéresse déjà, sa fiche contient un formulaire qui rédige le message à votre place.</p>
+    </div>
+
+    <div class="contact-grille">
+
+      <dl class="coordonnees">
+        <div>
+          <dt>Email</dt>
+          <dd><a data-cfg="email" href="#">bouldeson@gmail.com</a></dd>
+        </div>
+        <div data-si="telephone" hidden>
+          <dt>Téléphone</dt>
+          <dd><a data-cfg="telephone" href="#"></a></dd>
+        </div>
+        <div>
+          <dt>Atelier</dt>
+          <dd data-cfg="ville">Bayonne, Pays basque</dd>
+        </div>
+        <div>
+          <dt>Délai de fabrication</dt>
+          <dd>Plusieurs jours par enceinte</dd>
+        </div>
+        <div>
+          <dt>Réponse</dt>
+          <dd>Sous quelques jours</dd>
+        </div>
+      </dl>
+
+      <div class="form-bloc">
+        <form data-form-contact novalidate>
+          <div class="champs" style="margin-top:0">
+            <div class="champ">
+              <label for="c-prenom">Prénom</label>
+              <input id="c-prenom" name="prenom" type="text" autocomplete="given-name" required>
+            </div>
+            <div class="champ">
+              <label for="c-nom">Nom</label>
+              <input id="c-nom" name="nom" type="text" autocomplete="family-name" required>
+            </div>
+            <div class="champ">
+              <label for="c-email">Email</label>
+              <input id="c-email" name="email" type="email" autocomplete="email" required>
+            </div>
+            <div class="champ">
+              <label for="c-tel">Téléphone <span class="opt">(facultatif)</span></label>
+              <input id="c-tel" name="telephone" type="tel" autocomplete="tel">
+            </div>
+            <div class="champ pleine">
+              <label for="c-sujet">Sujet</label>
+              <select id="c-sujet" name="sujet">
+                <option>Renseignement sur un modèle</option>
+                <option>Demande de prix</option>
+                <option>Demande sur mesure</option>
+                <option>Suivi d'une commande</option>
+                <option>Autre</option>
+              </select>
+            </div>
+            <div class="champ pleine">
+              <label for="c-message">Votre message</label>
+              <textarea id="c-message" name="message" required></textarea>
+            </div>
+          </div>
+
+          <div class="form-actions">
+            <button class="btn btn-large" type="submit">Envoyer le message</button>
+          </div>
+
+          <p class="note">Le bouton ouvre votre messagerie avec le message déjà rédigé. Si rien ne s'ouvre, écrivez directement à <a data-cfg="email" href="#">bouldeson@gmail.com</a>.</p>
+
+          <div class="encadre" data-contact-confirm hidden style="margin-top:1.2rem">
+            <strong>Votre messagerie devrait s'être ouverte.</strong><br>
+            Il ne reste qu'à cliquer sur « Envoyer ».
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© <span data-annee>2026</span> <span data-cfg="marque">Bouldeson</span> — <span data-cfg="ville">Bayonne</span></p>
+    <div class="footer-liens">
+      <a href="boutique.html">Les modèles</a>
+      <a href="contact.html">Contact</a>
+      <a data-cfg="email" href="#">bouldeson@gmail.com</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/site.js"></script>
+</body>
+</html>

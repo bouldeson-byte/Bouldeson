@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Modèle — Bouldeson</title>
+<meta name="description" content="Fiche d'un modèle d'enceinte Bouldeson et formulaire de demande.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Nunito+Sans:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page-produit>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="index.html"><span class="logo-mark" aria-hidden="true"></span><span data-cfg="marque">Bouldeson</span></a>
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="boutique.html" aria-current="page">Les modèles</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="wrap fiche">
+    <div class="fiche-photos">
+      <img class="photo-principale" data-photo-principale src="" alt="">
+      <div class="vignettes" data-vignettes></div>
+    </div>
+
+    <div class="fiche-infos">
+      <p class="eyebrow"><a href="boutique.html" style="text-decoration:none">Les modèles</a> / <span data-p-ref></span></p>
+      <h1 data-p-nom></h1>
+      <p><span class="etiquette" data-p-gamme></span></p>
+      <p class="lede" data-p-accroche></p>
+      <p class="mesure" data-p-desc></p>
+
+      <div class="encadre">
+        <strong>Fabriquée à Bayonne, à la main.</strong><br>
+        Comptez plusieurs jours de travail par pièce. Les finitions et les coloris se choisissent avec le créateur, et aucune enceinte n'est identique à une autre. Le prix dépend du modèle et de sa finition : il vous est communiqué par retour d'email.
+      </div>
+
+      <div class="hero-actions">
+        <a class="btn btn-large" href="#demande">Demander ce modèle</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DEMANDE ===== -->
+  <section class="wrap section" id="demande" style="padding-top:0">
+    <div class="form-bloc">
+      <p class="eyebrow">Prendre contact</p>
+      <h2 data-p-titre-form>Ce modèle vous intéresse ?</h2>
+      <p class="lede" style="margin-top:.7rem">Remplissez ce formulaire : votre messagerie s'ouvre avec un message déjà rédigé, adressé à l'atelier. Vous recevez en retour le prix, le délai, les finitions possibles et les modalités de livraison. Aucun paiement n'est demandé ici.</p>
+
+      <form data-form-demande novalidate>
+        <div class="champs">
+          <div class="champ">
+            <label for="prenom">Prénom</label>
+            <input id="prenom" name="prenom" type="text" autocomplete="given-name" required>
+          </div>
+          <div class="champ">
+            <label for="nom">Nom</label>
+            <input id="nom" name="nom" type="text" autocomplete="family-name" required>
+          </div>
+          <div class="champ">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="champ">
+            <label for="telephone">Téléphone <span class="opt">(facultatif)</span></label>
+            <input id="telephone" name="telephone" type="tel" autocomplete="tel" placeholder="06 12 34 56 78">
+          </div>
+          <div class="champ pleine">
+            <label for="ville">Ville <span class="opt">(facultatif)</span></label>
+            <input id="ville" name="ville" type="text" autocomplete="address-level2">
+          </div>
+          <div class="champ pleine">
+            <label for="message">Votre demande <span class="opt">(facultatif)</span></label>
+            <textarea id="message" name="message" placeholder="Une finition ou un coloris en tête, une question sur l'installation, un délai à respecter…"></textarea>
+          </div>
+        </div>
+
+        <div class="form-actions">
+          <button class="btn btn-large" type="submit">Envoyer ma demande</button>
+          <button class="btn btn-ghost" type="button" data-copier>Copier le message</button>
+        </div>
+
+        <p class="note">Si rien ne s'ouvre, votre navigateur n'a pas de messagerie configurée : utilisez « Copier le message », puis collez le texte dans un email adressé à <a data-cfg="email" href="#">bouldeson@gmail.com</a>.</p>
+
+        <div class="recap-zone" data-recap hidden>
+          <label for="recap-texte">Votre message</label>
+          <textarea id="recap-texte" data-recap-texte readonly></textarea>
+        </div>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© <span data-annee>2026</span> <span data-cfg="marque">Bouldeson</span> — <span data-cfg="ville">Bayonne</span></p>
+    <div class="footer-liens">
+      <a href="boutique.html">Les modèles</a>
+      <a href="contact.html">Contact</a>
+      <a data-cfg="email" href="#">bouldeson@gmail.com</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/site.js"></script>
+</body>
+</html>

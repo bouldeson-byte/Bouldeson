@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Les modèles — Bouldeson</title>
+<meta name="description" content="Les enceintes Bouldeson : gamme plâtre pour le salon, gamme portative imprimée en 3D.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Nunito+Sans:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="index.html"><span class="logo-mark" aria-hidden="true"></span><span data-cfg="marque">Bouldeson</span></a>
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="index.html">Accueil</a>
+      <a href="boutique.html" aria-current="page">Les modèles</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="wrap section">
+    <div class="section-head">
+      <p class="eyebrow">Les modèles</p>
+      <h2>Chaque enceinte est une pièce unique.</h2>
+      <p class="lede">Les modèles ci-dessous sont sortis de l'atelier de Bayonne. Les prix ne sont pas affichés : ils dépendent de la finition, du coloris et de la disponibilité. Un modèle vous plaît ? Ouvrez sa fiche et envoyez votre demande, vous recevrez tous les détails en retour.</p>
+    </div>
+
+    <div class="filtres">
+      <button class="filtre" type="button" data-filtre="tout" aria-pressed="true">Tous les modèles</button>
+      <button class="filtre" type="button" data-filtre="platre" aria-pressed="false">Plâtre</button>
+      <button class="filtre" type="button" data-filtre="portative" aria-pressed="false">Portatives</button>
+    </div>
+
+    <div class="grille-produits" data-grille-produits></div>
+
+    <div class="encadre" style="margin-top:2.6rem">
+      <strong>Une forme ou une teinte particulière ?</strong><br>
+      Les enceintes étant fabriquées une par une, les finitions et les couleurs se discutent au cas par cas. Écrivez à <a data-cfg="email" href="#">bouldeson@gmail.com</a> en décrivant ce que vous avez en tête.
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© <span data-annee>2026</span> <span data-cfg="marque">Bouldeson</span> — <span data-cfg="ville">Bayonne</span></p>
+    <div class="footer-liens">
+      <a href="boutique.html">Les modèles</a>
+      <a href="contact.html">Contact</a>
+      <a data-cfg="email" href="#">bouldeson@gmail.com</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/site.js"></script>
+</body>
+</html>
