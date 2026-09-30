@@ -53,7 +53,7 @@ const CONFIG = {
       description: "La même architecture deux voies, mais le plâtre est travaillé pour laisser passer la lumière. L'enceinte devient une source lumineuse à part entière, dont la couleur se règle selon la pièce et le moment. Les finitions colorées sont réalisées à la demande, aucune n'est identique à une autre."
     },
     {
-      ref: "BDS-04", gamme: "portative", nom: "Haltère",
+      ref: "BDS-04", gamme: "portative", nom: "Meta",
       accroche: "Portative, coque imprimée en 3D et grille ajourée",
       photos: ["images/bds-04-1.jpg","images/bds-04-2.jpg","images/bds-04-3.jpg","images/bds-04-4.jpg","images/bds-04-5.jpg"],
       description: "Une forme d'haltère qui tient dans une main et se pose n'importe où, dans le jardin comme sur une étagère. La coque est modélisée sur ordinateur puis imprimée en 3D, avec une grille ajourée devant le haut-parleur. Batterie intégrée, recharge par câble USB-C. L'extérieur est poncé et poli à la main après impression, jusqu'à effacer toute trace de couche."
@@ -83,7 +83,7 @@ const CONFIG = {
       description: "Un ballon de rugby posé sur son tee, qui se transporte et se pose où l'on veut. La coque est imprimée en 3D puis poncée et peinte à la main ; les finitions, les écussons et les couleurs se personnalisent entièrement. Batterie intégrée, recharge par USB-C."
     },
     {
-      ref: "BDS-09", gamme: "portative", nom: "Onde",
+      ref: "BDS-09", gamme: "portative", nom: "Lunettes - longue-vue",
       accroche: "Portative, forme enroulée posée à plat",
       photos: ["images/bds-09-1.jpg","images/bds-09-2.jpg"],
       description: "Une forme enroulée sur elle-même, qui se pose à plat sur une table basse et diffuse par ses deux grilles rondes. La courbe est dessinée sur ordinateur, imprimée en 3D, puis reprise à la main jusqu'à obtenir une surface douce au toucher. Batterie intégrée, recharge par USB-C."
